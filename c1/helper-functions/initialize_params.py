@@ -20,6 +20,8 @@ def initialize_with_zeros(dim):
 
     return w, b
 
+
+# instead of zero initialization try random initialization
 dim = 2
 w, b = initialize_with_zeros(dim)
 print ("w = " + str(w))
